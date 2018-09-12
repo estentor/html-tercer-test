@@ -203,11 +203,60 @@ main {
 #blog{
     background-image: url('../img/marts5.jpg');   
 }
+
+/** Contacto **/
+
 #contact{
     background-image: url('../img/marts6.jpg');   
 }
+.contact-horario{
+    margin-top: 30px;
+    width: 30%;
+    float: left;
+    margin-left: auto;
+    line-height: 1.5;
+}
+.contact-horario h1{
+    text-transform: uppercase;
+    color:#FFF;
+    font-size: 1.2rem;
+    float: left;
+    line-height: 1.5;
+}
+.contact-horario h3{
+    font-size: .9rem;
+    color: #FFF;
+    float: left;
+    line-height: 1.5;
+}
+.contact-horario p{
+    font-size: .9rem;
+    color: #FFF;
+    float: left;
+    line-height: 1.5;
+}
+.contact-map {
+    margin-top: 30px;
+    width: 70%;
+    float: left;
+    line-height: 1.5;
+}
 
+.contact-correo{
+    margin-top: 10px;
+    font-size: .9rem;
+    color: #FFF;
+    float: left;
 
+}
+.contact-correo a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-correo a:hover{
+    color: gray;
+    text-decoration: none;
+}
 .logo-principal{
     width: 70%;
     margin: auto;
@@ -226,12 +275,17 @@ footer {
     min-height: 70px;
     background-color: #111;
 }
-.footer-content p{
+.footer-content{
     color:#FFF;
-    padding: 2%;
 }
-.footer-content a{
+.footer-content p{
+    margin-top: 20px;
+}
+.footer-content a {
+    float: right;
+    margin-top: 10px;
+}
+.footer-content i{
     color:white;
     font-size: 24px;
-    float: right;
 }
