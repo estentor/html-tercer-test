@@ -130,6 +130,7 @@ main {
     color:#FFF;
     font-size: .9rem;
     text-align: center;
+    line-height: 1.5;
 }
 /** TEAM **/
 #team{
@@ -219,13 +220,13 @@ main {
 
 
 /* footer */
-.footer {
+footer {
     clear: both;
     width: 100%;
     min-height: 70px;
-    bottom: 0;
+    background-color: #111;
 }
-.footer p{
-    color: #FFF;
-    text-align: center;
+.footer-content p{
+    color:#FFF;
+    padding: 2%;
 }
