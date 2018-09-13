@@ -20,9 +20,18 @@ body {
 
 header {
     width: 100%;
-    background: #555555;
+    background: darkslateblue;
     height:80px;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    animation:slide-down 0.7s;
+    opacity:0.9;
+  }  
+
 .ancho {
     width:80%;
     height: 80px;
@@ -91,7 +100,7 @@ main {
 .parallax{
     background: #FFF fixed no-repeat 50% 50%;
     background-size: cover;
-    height: 690px;
+    min-height: 700px;
 }
 /** INICIO **/
 #inicio{
@@ -195,14 +204,18 @@ main {
     text-shadow: 1px 1px #444;
 }
 
-
-
 #events{
     background-image: url('../img/marts4.jpg');   
 }
+/** BLOG **/
 #blog{
     background-image: url('../img/marts5.jpg');   
 }
+/** article blogs **/
+.blog-class article:nth-child(odd)
+
+.blog-class article:nth-child(even)
+
 
 /** Contacto **/
 
@@ -247,7 +260,10 @@ main {
     font-size: .9rem;
     color: #FFF;
     float: left;
-
+}
+.contact-text{
+    margin-top: 10px;
+    font-size: .7rem!important;
 }
 .contact-correo a{
     color: #fff;
@@ -263,7 +279,7 @@ main {
     text-align: center;
 }
 .logo-principal img{
-    margin-top:10px;
+    margin-top:20px;
     max-width: 480px;
 }
 

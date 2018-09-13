@@ -2,10 +2,12 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
         document.getElementById("topBtn").style.display = "block";
+        document.getElementById("menu").classList.add("sticky");
     } else {
         document.getElementById("topBtn").style.display = "none";
+        document.getElementById("menu").classList.remove("sticky");
     }
 }
 
