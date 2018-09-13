@@ -93,41 +93,42 @@
             <div class="titulo">
                 <h1>Eventos Pasados</h1>
             </div>
+            <div class="gallery">
+                <!-- The grid: four columns -->
+                <div class="row-gallery">
+                    <div class="column-gallery">
+                        <img src="img/marts1.jpg" alt="MARTS 1" onclick="openImg(this);">
+                    </div>
+                    <div class="column-gallery">
+                        <img src="img/marts2.jpg" alt="MARTS 2" onclick="openImg(this);">
+                    </div>
+                    <div class="column-gallery">
+                        <img src="img/marts3.jpg" alt="MARTS 3" onclick="openImg(this);">
+                    </div>
+                    <div class="column-gallery">
+                        <img src="img/marts4.jpg" alt="MARTS 4" onclick="openImg(this);">
+                    </div>
+                </div>
+                
+                <!-- The expanding image container -->
+                <div class="container-gallery">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn-gallery">&times;</span>
+                
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:100%">
+                
+                    <!-- Image text -->
+                    <div id="imgtext"></div>
+                </div>
+            </div>
         </div>
       </div><!-- events -->
 
       <div id="blog" class="parallax">
         <div class="content blog-class">
-            <div id="article">
-                <article>
-                    <img src="http://picsum.photos/400/300/" alt="">
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-                    <span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quis porro dignissimos autem, vel perspiciatis atque. Incidunt unde voluptate molestiae esse maxime quia deserunt nam facilis sed, quibusdam veritatis consectetur!</p>
-                    </span>
-                </article>
-                <article>
-                    <img src="http://picsum.photos/400/300/" alt="">
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-                    <span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quis porro dignissimos autem, vel perspiciatis atque. Incidunt unde voluptate molestiae esse maxime quia deserunt nam facilis sed, quibusdam veritatis consectetur!</p>
-                    </span>
-                </article>
-                <article>
-                    <img src="http://picsum.photos/400/300/" alt="">
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-                    <span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quis porro dignissimos autem, vel perspiciatis atque. Incidunt unde voluptate molestiae esse maxime quia deserunt nam facilis sed, quibusdam veritatis consectetur!</p>
-                    </span>
-                </article>
-                <article>
-                    <img src="http://picsum.photos/400/300/" alt="">
-                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-                    <span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quis porro dignissimos autem, vel perspiciatis atque. Incidunt unde voluptate molestiae esse maxime quia deserunt nam facilis sed, quibusdam veritatis consectetur!</p>
-                    </span>
-                </article>
-            </div>
+
+            
         </div>
       </div><!-- blog -->
 
