@@ -363,14 +363,23 @@ footer {
     width: 100%;
     min-height: 70px;
     background-color: #111;
+    position: absolute;
 }
 .footer-content{
     color:#FFF;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-content p{
+    margin-top: 20px;
+    float: left;
 }
 
 .footer-content a {
     float: right;
     margin-right: 5%;
+    margin-top: 20px;
     text-decoration: none;
     color: #FFF;
 }
